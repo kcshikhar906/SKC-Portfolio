@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${openSans.variable} ${montserrat.variable} font-sans antialiased`}>
         <ParticleBackground />
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider defaultTheme="system">
           <Header />
           <main>{children}</main>
           <Footer />
