@@ -1,17 +1,7 @@
-import type {NextConfig} from 'next';
-
-const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-    ],
-  },
-  /* other config options here */
+const nextConfig = {
+  output: 'export',
+  basePath: '/SKC-Portfolio',
+  assetPrefix: '/SKC-Portfolio',
+  // ...other config if you have
 };
-
 export default nextConfig;
