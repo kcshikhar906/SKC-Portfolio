@@ -12,7 +12,7 @@ export default function AboutSection({ id }: AboutSectionProps) {
         <div className="md:col-span-1">
           <div className="aspect-square rounded-lg overflow-hidden shadow-xl mx-auto max-w-xs md:max-w-none">
             <Image
-              src="https://placehold.co/400x400.png"
+              src="image/pp.jpg"
               alt="Shikhar KC"
               width={400}
               height={400}
