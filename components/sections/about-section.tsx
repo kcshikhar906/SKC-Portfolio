@@ -24,7 +24,7 @@ export default function AboutSection({ id }: AboutSectionProps) {
         <div className="md:col-span-2">
           <h2 className="text-3xl sm:text-4xl font-bold font-heading mb-6">About Me</h2>
           <p className="text-lg text-foreground/80 leading-relaxed mb-4">
-            Hello! I&apos;m Shikhar KC, a dedicated and Google IT Support Certified professional with a strong passion for technology and problem-solving. My journey in IT started with a curiosity for how systems work and has grown into a deep interest in system administration and IT infrastructure.
+            Hello! I&apos;m Shikhar K C, a dedicated and Google IT Support Certified professional with a strong passion for technology and problem-solving. My journey in IT started with a curiosity for how systems work and has grown into a deep interest in system administration and IT infrastructure.
           </p>
           <p className="text-lg text-foreground/80 leading-relaxed mb-4">
             I thrive in dynamic environments where I can leverage my technical skills to support users and optimize systems. I am particularly interested in cloud technologies, network security, and automation.
