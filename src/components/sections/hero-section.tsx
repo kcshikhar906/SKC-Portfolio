@@ -144,8 +144,8 @@ export default function HeroSection({ id }: HeroSectionProps) {
               <Image
                 src="/images/1.jpg"
                 alt="Shikhar KC Profile"
-                // layout="fill"
-                // objectFit="cover"
+                layout="fill"
+                objectFit="cover"
                 className="transform transition-transform duration-500 hover:scale-105"
                 priority
               />
