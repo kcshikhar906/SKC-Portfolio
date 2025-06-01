@@ -103,6 +103,21 @@ export default function HeroSection({ id }: HeroSectionProps) {
               <Button asChild size="lg" className="shadow-lg hover:shadow-primary/50 transition-shadow">
                 <Link href="#contact">Get in Touch</Link>
               </Button>
+              <Button
+              onClick={() => {
+                const contactSection = document.getElementById('contact')
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: 'smooth' })
+                  // Remove hash from URL manually (optional)
+                  window.history.replaceState(null, '', window.location.pathname)
+                }
+              }}
+              size="lg"
+              className="shadow-lg hover:shadow-primary/50 transition-shadow"
+            >
+              Get in Touch
+            </Button>
+
               <div className="relative">
                 <Button asChild variant="secondary" size="lg" className="shadow-lg hover:shadow-secondary/50 transition-shadow relative z-10">
                   <Link href="/SKC-Resume-2025.pdf" target="_blank" rel="noopener noreferrer">Download Resume</Link>
