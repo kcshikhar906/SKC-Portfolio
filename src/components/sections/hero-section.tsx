@@ -100,9 +100,6 @@ export default function HeroSection({ id }: HeroSectionProps) {
               IT Support Specialist | Google IT Support Certified | Tech Enthusiast
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-500">
-              <Button asChild size="lg" className="shadow-lg hover:shadow-primary/50 transition-shadow">
-                <Link href="#contact">Get in Touch</Link>
-              </Button>
               <Button
               onClick={() => {
                 const contactSection = document.getElementById('contact')
@@ -124,9 +121,20 @@ export default function HeroSection({ id }: HeroSectionProps) {
                 </Button>
                 
               </div>
-              <Button asChild variant="outline" size="lg" className="shadow-lg hover:shadow-muted-foreground/30 transition-shadow">
-                <Link href="#projects">View Projects</Link>
-              </Button>
+              <Button
+              onClick={() => {
+                const contactSection = document.getElementById('projects')
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: 'smooth' })
+                  // Remove hash from URL manually (optional)
+                  window.history.replaceState(null, '', window.location.pathname)
+                }
+              }}
+              size="lg"
+              className="shadow-lg hover:shadow-primary/50 transition-shadow"
+            >
+              View Projects
+            </Button>
             </div>
           </div>
 
