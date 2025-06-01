@@ -94,7 +94,7 @@ export default function HeroSection({ id }: HeroSectionProps) {
           {/* Left Content: Text and Buttons */}
           <div className="md:w-3/5 lg:w-1/2 text-center md:text-left order-2 md:order-1">
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold font-heading mb-6 tracking-tight animate-in fade-in slide-in-from-bottom-8 duration-700">
-              Shikhar <span className="text-primary">Kay Cee</span>
+              Shikhar <span className="text-primary">K C</span>
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-foreground/80 mb-10 max-w-3xl animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
               IT Support Specialist | Google IT Support Certified | Tech Enthusiast
