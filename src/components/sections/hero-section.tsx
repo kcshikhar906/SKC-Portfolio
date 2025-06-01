@@ -105,7 +105,7 @@ export default function HeroSection({ id }: HeroSectionProps) {
               </Button>
               <div className="relative">
                 <Button asChild variant="secondary" size="lg" className="shadow-lg hover:shadow-secondary/50 transition-shadow relative z-10">
-                  <Link href="/SKC-Resume-2025.pdf" target="_blank" rel="noopener noreferrer">Download CV</Link>
+                  <Link href="SKC-Resume-2025.pdf" target="_blank" rel="noopener noreferrer">Download Resume</Link>
                 </Button>
                 
               </div>
