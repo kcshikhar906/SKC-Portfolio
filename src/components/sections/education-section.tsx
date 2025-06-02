@@ -104,7 +104,7 @@ export default function EducationSection({ id }: EducationSectionProps) {
           <DialogTrigger asChild>
             <Button variant="outline">View All Certificates</Button>
           </DialogTrigger>
-          <DialogContent className="sm:max-w-[600px]">
+          <DialogContent className="sm:max-w-[600px] max-h-[80vh] overflow-y-auto">
             <DialogHeader>
               <DialogTitle>All Certifications</DialogTitle>
               <DialogDescription>
