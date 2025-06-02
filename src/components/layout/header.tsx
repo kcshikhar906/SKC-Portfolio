@@ -101,7 +101,7 @@ export default function Header() {
             )}
           >
             Shikhar KC
-</button> // Change Link to button
+          </button> 
 
           <div className="hidden md:flex items-center space-x-4">
             <NavLinks />
