@@ -81,16 +81,28 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <Link 
-            href="#hero" 
+          <button // Change Link to button
+            onClick={(e) => { // Modify onClick
+              e.preventDefault(); // Prevent default anchor behavior
+              const targetElement = document.getElementById("hero"); // Find the hero section element
+
+              if (targetElement) {
+                targetElement.scrollIntoView({ // Scroll to the element
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }
+
+              setIsMobileMenuOpen(false); // Close mobile menu if open
+            }}
             className={cn(
               "text-2xl font-bold font-heading transition-colors",
               activeSection === "hero" || !activeSection ? "text-primary" : "text-foreground hover:text-primary"
             )}
-            onClick={() => setIsMobileMenuOpen(false)}
           >
             Shikhar KC
-          </Link>
+</button> // Change Link to button
+
           <div className="hidden md:flex items-center space-x-4">
             <NavLinks />
             <ThemeToggle />
