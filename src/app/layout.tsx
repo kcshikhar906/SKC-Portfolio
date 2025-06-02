@@ -7,6 +7,8 @@ import { Toaster } from "@/components/ui/toaster"
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 import ParticleBackground from '@/components/effects/particle-background';
+import ScrollToTopButton from "@/components/ui/scroll-to-top-button";
+
 
 export const metadata: Metadata = {
   title: "Shikhar's Portfolio",
@@ -28,6 +30,7 @@ export default function RootLayout({
           <Footer />
           <Toaster />
         </ThemeProvider>
+        <ScrollToTopButton />
       </body>
     </html>
   );
