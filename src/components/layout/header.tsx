@@ -39,25 +39,38 @@ export default function Header() {
   }, []);
 
   const NavLinks = ({ mobile = false }: { mobile?: boolean }) => (
-    <nav className={cn("flex items-center gap-4", mobile ? "flex-col items-start space-y-2" : "hidden md:flex")}>
-      {navItems.map((item) => (
-        <Link
-          key={item.label}
-          href={item.href}
-          onClick={() => mobile && setIsMobileMenuOpen(false)}
-          className={cn(
-            "px-3 py-2 rounded-md text-sm font-medium transition-colors",
-            activeSection === item.href.substring(1)
-              ? "text-primary bg-primary/10"
-              : "text-foreground/70 hover:text-primary",
-            mobile && "w-full text-lg"
-          )}
-        >
-          {item.label}
-        </Link>
-      ))}
-    </nav>
-  );
+  <nav className={cn("flex items-center gap-4", mobile ? "flex-col items-start space-y-2" : "hidden md:flex")}>
+    {navItems.map((item) => (
+      <button // Change Link to button
+        key={item.label}
+        onClick={(e) => { // Modify onClick
+          e.preventDefault(); // Prevent default anchor behavior
+          const targetId = item.href.substring(1); // Get the section ID
+          const targetElement = document.getElementById(targetId); // Find the target element
+
+          if (targetElement) {
+            targetElement.scrollIntoView({ // Scroll to the element
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+
+          mobile && setIsMobileMenuOpen(false); // Close mobile menu if open
+        }}
+        className={cn(
+          "px-3 py-2 rounded-md text-sm font-medium transition-colors",
+          activeSection === item.href.substring(1)
+            ? "text-primary bg-primary/10"
+            : "text-foreground/70 hover:text-primary",
+          mobile && "w-full text-lg"
+        )}
+      >
+        {item.label}
+      </button> // Change Link to button
+    ))}
+  </nav>
+);
+
 
   return (
     <header
