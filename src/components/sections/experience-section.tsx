@@ -53,17 +53,13 @@ export function ExperienceSection({ id }: ExperienceSectionProps) {
         <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8 md:gap-6 lg:gap-8 w-full [perspective:1200px] min-h-[450px] md:min-h-[500px]">
           {filteredExperience.map((exp, index) => (
             <div
-              key={exp.company + exp.title}
-              className={cn(
-                "w-full sm:w-4/5 md:w-[45%] lg:w-[38%] transition-all duration-700 ease-out transform-gpu",
-                {
-                  "md:scale-110 md:z-10": index === 0 && filteredExperience.length > 1,
-                  "md:scale-90 md:opacity-75 md:rotate-y-[-10deg] md:hover:opacity-100 md:hover:scale-95 md:hover:rotate-y-0": index === 1 && filteredExperience.length > 1,
-                  "md:scale-100": filteredExperience.length === 1,
-                }
-              )}
-            >
-              <Card className="w-full h-full shadow-xl hover:shadow-2xl transition-all duration-300 bg-card text-card-foreground rounded-lg border border-border/70 flex flex-col">
+            key={exp.company + exp.title}
+            className={cn(
+              "w-full sm:w-4/5 md:w-[45%] lg:w-[38%] transition-all duration-500 ease-in-out transform-gpu",
+              "transform perspective-[1200px] rotateY(10deg) hover:rotateY(0deg) hover:scale-105"
+            )}
+          >
+            <Card className="w-full h-full shadow-xl transition-all duration-300 bg-card text-card-foreground rounded-lg border border-border/70 flex flex-col">
                 <CardHeader className="pb-3 text-center">
                   <CardTitle className="text-xl font-semibold font-heading leading-tight">{exp.title}</CardTitle>
                   <CardDescription className="text-sm text-muted-foreground mt-1">
