@@ -139,7 +139,7 @@ export default function HeroSection({ id }: HeroSectionProps) {
           </div>
 
           {/* Right Content: Image */}
-          {/* <div className="md:w-2/5 lg:w-1/2 flex justify-center md:justify-end order-1 md:order-2 animate-in fade-in slide-in-from-right-8 duration-700 delay-200">
+          <div className="md:w-2/5 lg:w-1/2 flex justify-center md:justify-end order-1 md:order-2 animate-in fade-in slide-in-from-right-8 duration-700 delay-200">
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden shadow-2xl border-4 border-primary/30">
               <Image
                 src="/images/hero-profile.jpg"
@@ -150,8 +150,8 @@ export default function HeroSection({ id }: HeroSectionProps) {
                 priority
               />
             </div>
-          </div> */}
-          <div className="md:w-2/5 lg:w-1/2 flex justify-center md:justify-end order-1 md:order-2 animate-in fade-in slide-in-from-right-8 duration-700 delay-200">
+          </div>
+          {/* <div className="md:w-2/5 lg:w-1/2 flex justify-center md:justify-end order-1 md:order-2 animate-in fade-in slide-in-from-right-8 duration-700 delay-200">
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden shadow-2xl border-4 border-primary/30">
               <Image
                 src="/images/hero-profile.jpg"
@@ -162,7 +162,7 @@ export default function HeroSection({ id }: HeroSectionProps) {
                 priority
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
