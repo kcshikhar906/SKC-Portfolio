@@ -9,7 +9,7 @@ import Footer from '@/components/layout/footer';
 import ParticleBackground from '@/components/effects/particle-background';
 
 export const metadata: Metadata = {
-  title: "Shikhar's Digital Domain",
+  title: "Shikhar's Portfolio",
   description: 'Personal portfolio of Shikhar KC, IT Support Specialist.',
 };
 
