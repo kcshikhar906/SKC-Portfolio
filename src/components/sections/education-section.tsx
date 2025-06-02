@@ -22,14 +22,14 @@ const educationData = [
   {
     title: "Google IT Support Professional Certificate",
     institution: "Coursera (Google)",
-    date: "2023",
+    date: "2025",
     description: "Completed a comprehensive program covering troubleshooting, customer service, networking, operating systems, system administration, and security.",
     certificateLink: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/B0T8HAP9D6EW"
   },
   {
-    title: "Bachelor of Science in Information Technology",
+    title: "Master of Business Information Systems (MBIS)",
     institution: "Tribhuvan University (Example College)",
-    date: "2018 - 2022",
+    date: "2022 - 2025",
     description: "Focused on core IT principles, software development, database management, and networking fundamentals."
   },
   // Add more education or certifications here
@@ -43,8 +43,26 @@ const allCertificates = [
     link: "YOUR_GOOGLE_CERTIFICATE_LINK_HERE",
   },
   {
-    name: "Another Demo Certificate",
-    issuer: "Example Platform",
+    name: "Azure Fundamentals",
+    issuer: "Microsoft",
+    date: "2022",
+    link: "#", // Replace with actual link
+  },
+  {
+    name: "Technical Support Fundamentals",
+    issuer: "Google",
+    date: "2022",
+    link: "#", // Replace with actual link
+  },
+  {
+    name: "CCNA (Cisco Certified Network Associate)",
+    issuer: "Cisco",
+    date: "2022",
+    link: "#", // Replace with actual link
+  },
+  {
+    name: "CompTIA A+ Certification",
+    issuer: "CompTIA",
     date: "2022",
     link: "#", // Replace with actual link
   },
