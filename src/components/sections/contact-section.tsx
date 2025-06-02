@@ -10,19 +10,19 @@ const contactLinks = [
   {
     name: "Email",
     icon: <Mail className="h-5 w-5" />,
-    href: "mailto:shikhar.kc.dev@example.com", // Placeholder email
+    href: "mailto:shikharkc63@gmail.com", // Placeholder email
     label: "shikhar.kc.dev@example.com"
   },
   {
     name: "LinkedIn",
     icon: <Linkedin className="h-5 w-5" />,
-    href: "https://www.linkedin.com/in/shikharkc-example", // Placeholder LinkedIn
+    href: "https://www.linkedin.com/in/shikharkc6/", // Placeholder LinkedIn
     label: "linkedin.com/in/shikharkc"
   },
   {
     name: "GitHub",
     icon: <Github className="h-5 w-5" />,
-    href: "https://github.com/shikharkc", // Placeholder GitHub
+    href: "https://github.com/kcshikhar906", // Placeholder GitHub
     label: "github.com/shikharkc"
   }
 ];
