@@ -27,6 +27,13 @@ const educationData = [
     certificateLink: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/B0T8HAP9D6EW"
   },
   {
+    title: "Windows Server 2022: DHCP and DNS",
+    institution: "Linkedin (Linkedin Learning)",
+    date: "2025",
+    description: "Completed a comprehensive program covering troubleshooting, customer service, networking, operating systems, system administration, and security.",
+    certificateLink: "https://www.linkedin.com/learning/certificates/126e60dcb79704b4bed3cc3c8e1cc4fae5abd4bda8d0fee96bb5408e8d0d0dc8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BdwjLpbA6TGiL%2B4szGbkwyQ%3D%3D"
+  },
+  {
     title: "Master of Business Information Systems (MBIS)",
     institution: "Australian Institute of Higher Education (AIHE)",
     date: "2022 - 2024",
