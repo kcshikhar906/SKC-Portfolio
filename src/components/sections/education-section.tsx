@@ -53,7 +53,7 @@ const allCertificates = [
     name: "Google IT Support Professional Certificate",
     issuer: "Coursera (Google)",
     date: "2023",
-    link: "YOUR_GOOGLE_CERTIFICATE_LINK_HERE",
+    link: "https://www.linkedin.com/in/shikharkc6/details/certifications/",
   },
   {
     name: "Azure Fundamentals",
