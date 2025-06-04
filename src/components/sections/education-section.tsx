@@ -28,8 +28,14 @@ const educationData = [
   },
   {
     title: "Master of Business Information Systems (MBIS)",
-    institution: "Tribhuvan University (Example College)",
-    date: "2022 - 2025",
+    institution: "Australian Institute of Higher Education (AIHE)",
+    date: "2022 - 2024",
+    description: "Focused on core IT principles, software development, database management, and networking fundamentals."
+  },
+  {
+    title: "Bachelor of Computer Applications (BCA)",
+    institution: "APG Shimla University (Shimla, India)",
+    date: "2017 - 2020",
     description: "Focused on core IT principles, software development, database management, and networking fundamentals."
   },
   // Add more education or certifications here
