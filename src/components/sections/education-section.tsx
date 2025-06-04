@@ -106,6 +106,13 @@ export default function EducationSection({ id }: EducationSectionProps) {
                   </a>
                 </Button>
               )}
+              {edu.title === "Windows Server 2022: DHCP and DNS" && ( // Conditionally render button
+                <Button asChild variant="outline">
+                  <a href={edu.certificateLink} target="_blank" rel="noopener noreferrer">
+                    View Certificate
+                  </a>
+                </Button>
+              )}
             </CardContent>
           </Card>
         ))}
