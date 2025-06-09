@@ -76,7 +76,7 @@ export function ExperienceSection({ id }: ExperienceSectionProps) {
                 <CardContent className="pt-2 space-y-3 text-left flex-grow flex flex-col">
                   <div>
                     <h4 className="font-medium text-foreground/90 text-sm mb-1.5">Responsibilities:</h4>
-                    <ul className="list-disc list-outside ml-4 text-sm text-foreground/80 space-y-1">
+                    <ul className="list-disc list-outside ml-4 text-sm text-foreground/80 space-y-1 text-align-justify">
                       {exp.responsibilities.map((res, i) => <li key={i}>{res}</li>)}
                     </ul>
                   </div>
