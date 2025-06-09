@@ -15,7 +15,7 @@ export default function Home() {
       <EducationSection id="education" />
       <ExperienceSection id="experience" />
       <SkillsSection id="skills" />
-      <ProjectsSection id="projects" />
+      {/* <ProjectsSection id="projects" /> */}
       <ContactSection id="contact" />
     </>
   );
