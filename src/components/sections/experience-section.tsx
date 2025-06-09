@@ -8,33 +8,40 @@ import { cn } from "@/lib/utils";
 
 const experienceData = [
     {
-        title: "IT Support Intern",
-        company: "Tech Solutions Inc.",
-        date: "Jan 2023 - Present",
+        title: "IT Support Internship Mentor",
+        company: "GraduatePLUS Pty Ltd.",
+        date: "Dec 2024 - Present",
         responsibilities: [
-            "Provided Level 1 and Level 2 technical support to end-users for hardware, software, and network issues.",
-            "Managed user accounts and permissions in Active Directory and Office 365.",
-            "Assisted in the deployment and configuration of new workstations and software applications.",
-            "Documented technical issues and resolutions in the ticketing system."
+            "Guided and supervised interns on real-world IT support tasks, including troubleshooting and ticket handling.",
+            "Designed structured learning modules on networking, system administration, and customer support best practices.",
+            "Conducted weekly check-ins and performance reviews to support professional growth.",
+            "Provided hands-on training in tools such as Windows Server, Active Directory, and virtualization platforms.",
+            "Encouraged documentation habits by mentoring interns in writing KB articles and solution guides."
         ],
         achievements: [
-            "Consistently resolved over 95% of assigned tickets within SLA.",
-            "Developed PowerShell scripts to automate routine tasks such as user onboarding and system health checks, reducing manual effort by 20%.",
-            "Received positive feedback for excellent customer service and problem-solving skills."
+            "Mentored 5+ interns who successfully transitioned into full-time technical roles within 3 months of completion.",
+            "Built a reusable intern onboarding guide and knowledge base, reducing ramp-up time by 50%.",
+            "Created a mock ticketing lab environment to simulate real-world IT support scenarios.",
+            "Recognized by peers for fostering a collaborative and growth-focused learning environment."
         ]
     },
     {
-        title: "Junior System Administrator",
-        company: "Innovatech Ltd.",
-        date: "May 2021 - Dec 2022",
+        title: "IT Support Officer",
+        company: "Digipearl Pty Ltd.",
+        date: "Jan 2023 - Dec 2024",
         responsibilities: [
-            "Maintained and upgraded server infrastructure.",
-            "Implemented backup and disaster recovery solutions.",
-            "Monitored network performance and security."
+            "Provided Level 1 and Level 2 technical support for hardware, software, and network-related issues.",
+            "Diagnosed and resolved issues related to desktops, laptops, printers, and mobile devices.",
+            "Managed user accounts, permissions, and access controls using Active Directory and Office 365.",
+            "Handled incident and request tickets through ITSM platforms such as ServiceNow or Zendesk.",
+            "Supported onboarding/offboarding processes by preparing user accounts and hardware setups.",
+            "Ensured compliance with internal security policies and performed regular system audits."
         ],
         achievements: [
             "Successfully migrated 50+ users to a new email system with minimal downtime.",
-            "Reduced system vulnerabilities by 15% through proactive patching and configuration management."
+            "Reduced average ticket resolution time by 30% through process optimization and documentation.",
+            "Successfully migrated 100+ user accounts to a new domain with minimal disruption to operations.",
+            "Trained non-technical staff to troubleshoot basic issues, improving IT self-service usage."
         ]
     },
 ];
