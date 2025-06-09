@@ -31,6 +31,8 @@ export default function RootLayout({
           <Toaster />
         </ThemeProvider>
         <ScrollToTopButton />
+        <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
+        <script src="https://files.bpcontent.cloud/2025/06/09/06/20250609062833-WR53Y7OT.js"></script>
       </body>
     </html>
   );
